@@ -1,11 +1,11 @@
 print "Enter a number: "
 user_number = gets.to_i
 
-count = 2
+divisor = 2
 check = []
-while count < user_number
-  if user_number % count == 0
-    check.push(count)
+while divisor < user_number
+  if user_number % divisor == 0
+    check.push(divisor)
   end
   count+=1
 end
