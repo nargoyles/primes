@@ -7,7 +7,7 @@ while divisor < user_number
   if user_number % divisor == 0
     check.push(divisor)
   end
-  count+=1
+  divisor += 1
 end
 
 if check.empty?
